@@ -9,6 +9,7 @@
   "type": "library",
   "license": "MIT",
   "homepage": "https://idp-pre.reniec.gob.pe/site",
+  "minimum-stability": "stable",
   "authors": [
     {
       "name": "Miguel Pazo",
