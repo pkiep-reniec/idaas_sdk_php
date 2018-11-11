@@ -12,6 +12,7 @@ class Constants
     const ACR_PKI_DNIE = 'pki_dnie';
     const ACR_PKI_TOKEN = 'pki_token';
     const ACR_ONLY_PASSWORD = 'only_password';
+    const ACR_ONLY_QUESTIONS = 'only_questions';
     const PROMPT_NONE = 'none';
     const PROMPT_LOGIN = 'login';
     const PROMPT_CONSENT = 'consent';
