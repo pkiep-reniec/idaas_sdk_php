@@ -1,5 +1,5 @@
 # RENIEC IDaaS SDK for PHP
-With this client you can connect with our Identity as a Service (IDaaS).
+With this client you can connect with our solution of Identity as a Service (IDaaS) that implements OpenID Connect.
 
 Installation:
 ```
@@ -11,6 +11,9 @@ https://github.com/pkiep-reniec/integration_php_example
 
 More project details:
 https://idaas.reniec.gob.pe/site/
+
+Demo online:
+https://dsp.reniec.gob.pe/rp/
 
 ## Basic params
 #### Scopes
@@ -27,25 +30,25 @@ https://idaas.reniec.gob.pe/site/
     - Offline access for a month.
 	
 #### ACR
-##### Nivel 0:
+##### Level 0:
 - only_questions
     - Access only with secret questions.	
 
-##### Nivel 1:
+##### Level 1:
 - one_factor
     - Access with Clave Nacional | OTP Email | OTP SMS.
     
 - only_password
     - Access only with Clave Nacional.
 
-##### Nivel 2:
+##### Level 2:
 - two_factor
     - Access with Clave Nacional + OTP Email | OTP SMS.
     
 - fingerprint_mobile
     - Access with Biometric Validation and secret questions.
 
-##### Nivel 3:
+##### Level 3:
 - pki_dnie
     - Access with DNIe.
 
@@ -55,4 +58,7 @@ https://idaas.reniec.gob.pe/site/
 - pki_token
     - Access with PJ digital certificate.
 
-	
+# More params
+If you want more params details, you can find it into OpenID Connect documentation:
+
+https://openid.net/specs/openid-connect-core-1_0.html
