@@ -15,6 +15,8 @@ class Constants
     const ACR_ONLY_QUESTIONS = 'only_questions';
     const PKI_DNIE_MOBILE = 'pki_dnie_mobile';
     const FINGERPRINT_MOBILE = 'fingerprint_mobile';
+    const PKI_DNIE_LEGACY = 'pki_dnie_legacy';
+    const PKI_TOKEN_LEGACY = 'pki_token_legacy';
     const PROMPT_NONE = 'none';
     const PROMPT_LOGIN = 'login';
     const PROMPT_CONSENT = 'consent';

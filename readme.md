@@ -10,10 +10,10 @@ Integration example:
 https://github.com/pkiep-reniec/integration_php_example
 
 More project details:
-https://idaas.reniec.gob.pe/site/
+https://idaas.reniec.gob.pe/
 
 Demo online:
-https://dsp.reniec.gob.pe/rp/
+https://ecep.reniec.gob.pe/rp/
 
 ## Basic params
 #### Scopes
@@ -57,6 +57,12 @@ https://dsp.reniec.gob.pe/rp/
 	
 - pki_token
     - Access with PJ digital certificate.
+    
+- pki_dnie_legacy
+    - Access with DNIe using JNLP (Java 8 installed is required).
+    
+- pki_token_legacy 
+    - Access with PJ digital certificate using JNLP (Java 8 installed is required).
 
 # More params
 If you want more params details, you can find it into OpenID Connect documentation:
