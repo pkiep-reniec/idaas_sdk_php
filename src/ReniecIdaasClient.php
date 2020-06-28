@@ -73,6 +73,7 @@ class ReniecIdaasClient
     /**
      * @param $code Code from auth endpoint
      * @return mixed Tokens
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function getTokens($code)
     {
@@ -88,14 +89,13 @@ class ReniecIdaasClient
             ]
         ]);
 
-        $response = json_decode($gRequest->getBody()->getContents());
-
-        return $response;
+        return json_decode($gRequest->getBody()->getContents());
     }
 
     /**
      * @param $accessToken Access token for userinfo endpoint
      * @return mixed User info
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function getUserinfo($accessToken)
     {
@@ -107,9 +107,7 @@ class ReniecIdaasClient
             ]
         ]);
 
-        $response = json_decode($gRequest->getBody()->getContents());
-
-        return $response;
+        return json_decode($gRequest->getBody()->getContents());
     }
 
     public function getLogoutUri($redirectPostLogout)
