@@ -1,6 +1,6 @@
 {
   "name": "reniec/idaas",
-  "description": "Sdk for RENIEC IDaaS",
+  "description": "Sdk for ID Perú",
   "keywords": [
     "reniec",
     "idaas",
@@ -8,7 +8,7 @@
   ],
   "type": "library",
   "license": "MIT",
-  "homepage": "https://idp-pre.reniec.gob.pe/site",
+  "homepage": "https://idperu.reniec.gob.pe/site",
   "authors": [
     {
       "name": "Miguel Pazo",

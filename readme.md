@@ -1,4 +1,4 @@
-# RENIEC IDaaS SDK for PHP
+# ID Perú SDK for PHP
 With this client you can connect with our solution of Identity as a Service (IDaaS) that implements OpenID Connect.
 
 Installation:
@@ -10,7 +10,7 @@ Integration example:
 https://github.com/pkiep-reniec/integration_php_example
 
 More project details:
-https://idaas.reniec.gob.pe/
+https://idperu.reniec.gob.pe/site/
 
 Demo online:
 https://ecep.reniec.gob.pe/rp/

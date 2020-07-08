@@ -73,6 +73,7 @@ class ReniecIdaasClient
     /**
      * @param $code Code from auth endpoint
      * @return mixed Tokens
+     * @throws \GuzzleHttp\Exception\GuzzleException
      */
     public function getTokens($code)
     {
