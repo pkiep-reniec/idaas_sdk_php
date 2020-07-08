@@ -7,11 +7,6 @@ namespace Reniec\Idaas\Common;
  */
 class Constants
 {
-    const ACR_ONLY_QUESTIONS = 'only_questions';
-    const ACR_ONE_FACTOR = 'one_factor';
-    const ACR_ONLY_PASSWORD = 'only_password';
-    const ACR_TWO_FACTOR = 'two_factor';
-    const ACR_FINGERPRINT_MOBILE = 'fingerprint_mobile';
     const ACR_PKI_DNIE = 'pki_dnie';
     const ACR_PKI_TOKEN = 'pki_token';
     const ACR_PKI_DNIE_MOBILE = 'pki_dnie_mobile';
@@ -21,7 +16,5 @@ class Constants
     const PROMPT_LOGIN = 'login';
     const PROMPT_CONSENT = 'consent';
     const SCOPE_PROFILE = 'profile';
-    const SCOPE_EMAIL = 'email';
-    const SCOPE_PHONE = 'phone';
     const SCOPE_OFFLINE_ACCESS = 'offline_access';
 }
